@@ -1,0 +1,119 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body > header {
+  position: absolute;
+  width: 320px;
+  height: 58px;
+  left: 0px;
+  top: 0px;
+  background: #9F9C98;
+}
+
+img {
+  width: 150px;
+  height: 226px;
+  margin-top: 104px;
+  margin-left: 88px;
+}
+
+
+.bookname {
+position: absolute;
+width: 277px;
+height: 33px;
+left: 21px;
+top: 374px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 28px;
+text-align: center;
+
+color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ellipse */
+
+position: absolute;
+width: 30px;
+height: 30px;
+left: 145px;
+top: 14px;
+
+background: #E5E5E5;
+
+/* Поиск */
+
+position: absolute;
+width: 52px;
+height: 20px;
+left: 15px;
+top: 22px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: 20px;
+font-size: 14px;
+letter-spacing: 0.05em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #E5E5E5;
+
+/* Меню */
+
+position: absolute;
+width: 47px;
+height: 20px;
+left: 258px;
+top: 23px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: 20px;
+font-size: 14px;
+letter-spacing: 0.05em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #E5E5E5;
