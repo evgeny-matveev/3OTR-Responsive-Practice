@@ -1,0 +1,29 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+
+nav {
+ width: 320px;
+ height: 58px;
+ left: 0px;
+ top: 0px;
+
+ background: #9F9C98;
+}
+
+nav a {
+  width: 52px;
+height: 20px;
+left: 15px;
+top: 22px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: 20px;
+font-size: 14px;
+letter-spacing: 0.05em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #E5E5E5;
+}
