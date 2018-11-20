@@ -166,7 +166,7 @@ section a {
 }
 
 
-@media all and (min-width: 768px) {
+/* @media all and (min-width: 768px) {
 
 	/* .text2 {
 		width: 271px;
@@ -178,4 +178,4 @@ section a {
 		object-fit: contain;
 		line-height: 25px;
 	} */
-}
+} */
