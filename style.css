@@ -1,42 +1,144 @@
-ul {
+@import "reset.css";
+
+body{
+height: auto;
+
+font-family: 'Roboto', sans-serif;
 
 }
+h1 {
+  margin-top: 20px;
+
+  text-align: center;
+
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 33px;
+}
+h2 {
+  margin-top: 7px;
+
+  text-align: center;
+
+  font-size: 28px;
+  font-weight: lighter;
+  line-height: 22px;
+}
+
 a {
 text-decoration: none;
 
   color: #fff
   }
 
-  .section {
-      height: 58px;
-
-    color: #fff;
-    background-position: center;
-    background-size: cover;
-
-  }
-
-
 nav ul {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  left: 0;
+  position: relative;
 
   display: flex;
 
-  width: 258px;
-  margin: 0 auto;
-  padding: 10px 15px;
+  width: 320px;
+  padding: 5px;
 
   background-color: gray;
 
-  font-size: 14px;
+  font-size: 20px;
+
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.book {
+  margin-top: 20px;
+  margin-left: 88px;
+
+}
+.book>img {
+  width: 150px;
+  height: 226px;
+}
+
+.knopki {
+  display: flex;
+
+  width: 295px;
 
   justify-content: space-between;
 }
+.read {
+  width:  123px;
+  height: 33px;
+  margin-top: 25px;
+  margin-left: 40px;
 
-.book {
-  position: relative;
+border-radius: 3px;
+  background-color: blue;
+}
+.read>p{
+  padding: 10px;
+  padding-left: 40px;
+
+  color: #fff;
+
+font-size: 16px;
+}
+.save-for-later {
+  margin-top: 25px;
+  margin-right: -7px;
+}
+.save-for-later>p {
+  padding: 10px;
+
+  color: blue;
+}
+.content {
+  width: 295px;
+  margin-top: 25px;
 
 }
+.content>p {
+  padding-left: 40px;
+
+  font-size: lighter;
+  font-size: 18px;
+}
+
+
+
+nav ul li:nth-of-type(2) {
+  padding: 20px;
+
+  border-radius: 50%;
+  background: white;
+}
+@media all and (min-width: 321px) {
+  nav ul {
+    width: 100%;
+  }
+  .oll {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .content {
+    width: 98%;
+    margin-top: 25px;
+  }
+  .book {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  h1 {
+    margin-left: 40px;
+
+    text-align: left;
+ }
+  h2 {
+    position:relative;
+
+    margin-left: 40px;
+
+    text-align: left;
+  }
+ }
