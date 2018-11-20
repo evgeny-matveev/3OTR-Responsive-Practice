@@ -1,0 +1,16 @@
+@import "reset.css";
+ul {
+  display: flex;
+
+}
+li {
+  flex-direction: row;
+  
+}
+main {
+  margin: 0 auto;
+  padding: 24px 25px 104px 10px;
+}
+img {
+  margin: 0 auto;
+}
