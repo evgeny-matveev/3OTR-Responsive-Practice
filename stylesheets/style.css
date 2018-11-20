@@ -19,6 +19,10 @@
   grid-column-end: 6;
 }
 
+.menuplus {
+  display: none;
+}
+
 a {
   text-decoration: none;
 
@@ -106,6 +110,26 @@ h3 {
 
 p {
   font-weight: 300;
+}
 
-  font-kerning: auto;
+@media (min-width: 768px) {
+  .navbar {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .menu {
+    display: none;
+  }
+  .search {
+    grid-column: 5;
+  }
+  .pic {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .menuplus {
+    display: inline;
+
+    text-align: center;
+  }
 }
