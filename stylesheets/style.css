@@ -1,21 +1,70 @@
 @import "reset.css";
 @import "fonts.css";
 
-* {
-  box-sizing: border-box;
+body {
+  width: 100%;
+}
 
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body > header {
+header {
   position: absolute;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  flex-direction: row;
+
   width: 320px;
   height: 58px;
-  left: 0px;
-  top: 0px;
+
+  text-decoration: underline;
+  text-transform: uppercase;
+
+  color: #E5E5E5;
   background: #9F9C98;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+  justify-content: space-between;
+  align-items: center;
 }
+
+header img {
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 78px;
+  margin-left: 78px;
+}
+
+ul {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  margin-left: 15px;
+}
+
+.price, .about, .login {
+  display: none;
+}
+
+.menu {
+  display: block;
+
+  margin-right: 258px;
+  margin-left: 15px;
+}
+
 
 img {
   width: 150px;
@@ -24,175 +73,116 @@ img {
   margin-left: 88px;
 }
 
-
 .bookname {
-position: absolute;
-width: 277px;
-height: 33px;
-left: 21px;
-top: 374px;
+  position: absolute;
+  top: 374px;
+  left: 21px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 28px;
-text-align: center;
+  width: 277px;
+  height: 33px;
 
-color: #000000;
+  text-align: center;
+
+  color: #000000;
+
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
 }
 
 .bookauthor {
+  position: absolute;
+  top: 414px;
+  left: 107px;
 
+  width: 106px;
+  height: 26px;
 
-position: absolute;
-width: 106px;
-height: 26px;
-left: 107px;
-top: 414px;
+  text-align: center;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-font-size: 22px;
-text-align: center;
+  color: #000000;
 
-color: #000000;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: normal;
 }
 
 .read {
-
   position: absolute;
+  top: 505px;
+  left: 25px;
+
   width: 123px;
   height: 33px;
-  left: 25px;
-  top: 505px;
 
   background: #417BEA;}
 
 .text {
-
   position: relative;
+  top: 7px;
+  left: 43px;
+
   width: 37px;
   height: 19px;
-  left: 43px;
-  top: 7px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 16px;
 
   color: #FFFFFF;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
 }
 
 .save {
   position: absolute;
+  top: 510px;
+  left: 181px;
+
   width: 97px;
   height: 19px;
-  left: 181px;
-  top: 510px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 16px;
 
   color: #417BEA;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: normal;
 }
 
-.1stpar {
-position: absolute;
-width: 271px;
-height: 178px;
-left: 25px;
-top: 523px;
+.par1 {
+  position: absolute;
+  top: 573px;
+  left: 25px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-line-height: 25px;
-font-size: 18px;
+  width: 271px;
+  height: 178px;
 
-color: #000000;
+  color: #000000;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 25px;
 }
 
+.par2 {
+  position: absolute;
+  top: 731px;
+  left: 25px;
 
+  width: 271px;
+  height: 178px;
 
+  color: #000000;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Ellipse */
-
-position: absolute;
-width: 30px;
-height: 30px;
-left: 145px;
-top: 14px;
-
-background: #E5E5E5;
-
-/* Поиск */
-
-position: absolute;
-width: 52px;
-height: 20px;
-left: 15px;
-top: 22px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-line-height: 20px;
-font-size: 14px;
-letter-spacing: 0.05em;
-text-decoration-line: underline;
-text-transform: uppercase;
-
-color: #E5E5E5;
-
-/* Меню */
-
-position: absolute;
-width: 47px;
-height: 20px;
-left: 258px;
-top: 23px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-line-height: 20px;
-font-size: 14px;
-letter-spacing: 0.05em;
-text-decoration-line: underline;
-text-transform: uppercase;
-
-color: #E5E5E5;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 25px;
+}
