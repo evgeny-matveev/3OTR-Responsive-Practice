@@ -1,0 +1,42 @@
+ul {
+
+}
+a {
+text-decoration: none;
+
+  color: #fff
+  }
+
+  .section {
+      height: 58px;
+
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+
+nav ul {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+
+  display: flex;
+
+  width: 258px;
+  margin: 0 auto;
+  padding: 10px 15px;
+
+  background-color: gray;
+
+  font-size: 14px;
+
+  justify-content: space-between;
+}
+
+.book {
+  position: relative;
+
+}
