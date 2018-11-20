@@ -1,29 +1,51 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-p {
-    line-height: 20px;
-}
-
 body {
-  text-decoration: none;
-
   font-family: 'Roboto', sans-serif;
 }
-article {
-  margin: 20px;
+
+a {
+  text-decoration: none;
 }
 
-.img {
-  margin: 0 auto;
+.picture {
+    display: block;
+
+    margin-top: 46px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+img {
+ width: 150px;
+ height: 226px;
+}
+
+header {
+  height: 58px;
+
+  background-color: #9F9C98;
+}
+
+.searh {
+  margin-top: 20px;
+}
+.all {
+  margin: 25px;
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: bold;
+margin: 10px;
+
+font-size: 28px;
+font-weight: bold;
 }
 
 h2 {
+  margin: 10px;
+
   font-size: 22px;
 }
 
@@ -31,26 +53,11 @@ h1, h2 {
   text-align: center;
 }
 
-.img {
-  margin: 46 auto 0 0;
-}
+.read, .save {
+  width: 300px;
+  height: 10px;
 
-header {
-  background-color: #9F9C98;
-}
+  background-color: #417BEA;
 
-@media (min-width: 768px) {
-  header {
-    text-align: left;
-  }
-
-.all {
-  display: flex;
-  flex-direction: row;
-}
-
-  h1, h2 {
-    text-align: left;
-  }
-
+  font-size: 16px;
 }
