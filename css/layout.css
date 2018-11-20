@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto' sans-serif;
+}
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+
+  width: 320px;
+  height: 58px;
+
+  background-color: #9F9C98;
+
+  justify-content: space-between;
+}
+.menu-bar li a {
+  letter-spacing: 5%;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 14px;
+
+}
