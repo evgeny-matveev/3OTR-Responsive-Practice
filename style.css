@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif;
 
 }
 h1 {
+  width: 320px;
   margin-top: 20px;
 
   text-align: center;
@@ -16,6 +17,7 @@ h1 {
   line-height: 33px;
 }
 h2 {
+  width: 320px;
   margin-top: 7px;
 
   text-align: center;
@@ -36,7 +38,7 @@ nav ul {
 
   display: flex;
 
-  width: 320px;
+  width: 100%;
   padding: 5px;
 
   background-color: gray;
@@ -55,6 +57,8 @@ nav ul {
 
 }
 .book>img {
+  position: inherit;
+
   width: 150px;
   height: 226px;
 }
@@ -93,7 +97,7 @@ font-size: 16px;
   color: blue;
 }
 .content {
-  width: 295px;
+  width: 100%;
   margin-top: 25px;
 
 }
@@ -103,7 +107,12 @@ font-size: 16px;
   font-size: lighter;
   font-size: 18px;
 }
+.oll{
+  display: flex;
+  flex-direction: column;
 
+  width: auto;
+}
 
 
 nav ul li:nth-of-type(2) {
@@ -112,9 +121,18 @@ nav ul li:nth-of-type(2) {
   border-radius: 50%;
   background: white;
 }
-@media all and (min-width: 321px) {
+nav ul li:nth-of-type(4) {
+  display: none;
+}
+nav ul li:nth-of-type(5) {
+  display: none;
+}
+nav ul li:nth-of-type(6) {
+  display: none;
+}
+@media all and (min-width: 600px) {
   nav ul {
-    width: 100%;
+    width: auto;
   }
   .oll {
     display: flex;
@@ -127,18 +145,33 @@ nav ul li:nth-of-type(2) {
   }
   .book {
     margin-top: 20px;
-    margin-left: 50px;
   }
   h1 {
+    margin-top: 80px;
+    margin-bottom: -80px;
     margin-left: 40px;
 
     text-align: left;
  }
   h2 {
-    position:relative;
-
-    margin-left: 40px;
+      margin-bottom: 40px;
+      margin-left: 40px;
 
     text-align: left;
-  }
+     }
+  nav ul li:nth-of-type(1) {
+         display: none;
+       }
+     nav ul li:nth-of-type(4) {
+         display:inline;
+       }
+    nav ul li:nth-of-type(5) {
+         display:inline;
+       }
+    nav ul li:nth-of-type(6) {
+       display: inline;
+     }
+       nav ul li:nth-of-type(2) {
+         margin-right: 200px;
+       }
  }
