@@ -97,7 +97,7 @@ main img {
 }
 .content p {
   text-align: left;
-
+  line-height: 25px;
   font-weight: 300;
 }
 .content p:first-of-type {
