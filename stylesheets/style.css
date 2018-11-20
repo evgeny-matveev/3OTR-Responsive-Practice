@@ -1,0 +1,108 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic,cyrillic-ext');
+
+.navbar {
+  display: grid;
+
+  height: 3rem;
+
+  text-transform: uppercase;
+
+  border: 1px solid rgb(69, 147, 7);
+  background: rgb(79, 79, 79);
+
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
+.menu {
+  grid-column-end: 6;
+}
+
+a {
+  text-decoration: none;
+
+  color: white;
+}
+
+#main {
+  display: grid;
+
+  padding-right: 1.7rem;
+  padding-left: 1.7rem;
+
+  grid-template-areas:
+  "donbass"
+  "book"
+  "buttons"
+  "description";
+  grid-row-gap: 1.7rem;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.search, .menu {
+  text-align: center;
+
+  color: white;
+}
+
+.book, .buttons {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 1rem;
+
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.donbass {
+  margin: 2.2rem;
+}
+
+.buttons {
+  display: grid;
+
+  font-weight: 600;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.button1 {
+  padding: 12px;
+
+  color: white;
+  border-radius: 3px;
+  background-color: #417bea;
+}
+
+.button2 {
+  padding: 12px;
+
+  color: #417bea;
+}
+
+.pic {
+  width: 30px;
+  height: 30px;
+
+  text-align: center;
+
+  border-radius: 25px;
+  background: rgb(205, 213, 208);
+
+  grid-column-end: 4;
+}
+
+p {
+  font-kerning: auto;
+}
