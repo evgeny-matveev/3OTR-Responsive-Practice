@@ -1,0 +1,78 @@
+section {
+  width: 320px;
+  background-color: #fff;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 150px
+}
+header {
+  height: 50px;
+  background-color: #BFBFC4;
+}
+
+.book {
+  margin-top: 20px;
+  border: 6px solid #BFBFC4;
+  height: 200px;
+}
+
+body > header {
+  display: flex;
+
+  height: 45px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #f2f2f2;
+
+
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #434B60;
+
+  margin-top: -20px;
+}
+.the-book {
+  position: relative;
+  padding: 15px;
+  background-color: #fff;
+
+  font-weight: 600;
+  text-align: center;
+}
+article{
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+
+  color: #434B60;
+}
+.button1 {
+
+}
+
+.button2 {
+
+}
+
+.information {
+
+}
