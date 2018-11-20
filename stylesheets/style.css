@@ -1,2 +1,112 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  height: 58px;
+
+  background-color: gray;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  text-decoration: underline;
+  text-transform: uppercase;
+
+  color: #E5E5E5;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.price, .about, .login {
+  display: none;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  align-items: center;
+  justify-content: center;
+}
+
+section img {
+  width: 154px;
+  height: 226px;
+  margin-top: 46px;
+}
+
+h1 {
+  margin-top: 50px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+h2 {
+  padding-top: 23px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.book-buttons {
+  margin-top: 17px;
+}
+
+.book-buttons a:first-child {
+   color: #fff;
+   border-radius: 300px;
+   background-color: #417BEA;
+
+}
+
+a {
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:after {
+  color: inherit;
+}
+
+p {
+  padding-top: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .price, .about, .login {
+    display: block;
+  }
+}
