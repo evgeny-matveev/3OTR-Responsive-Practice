@@ -1,29 +1,65 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 
-nav {
- width: 320px;
- height: 58px;
- left: 0px;
- top: 0px;
+html {
+  font-family: Roboto
+}
 
- background: #9F9C98;
+nav {
+width: 320px;
+height: 58px;
+
+background: #9F9C98;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 nav a {
-  width: 52px;
-height: 20px;
-left: 15px;
-top: 22px;
 
-font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 line-height: 20px;
 font-size: 14px;
 letter-spacing: 0.05em;
 text-decoration-line: underline;
-text-transform: uppercase;
-
 color: #E5E5E5;
+text-transform: uppercase;
+}
+
+.circle {
+background-color: #E5E5E5;
+width: 30px;
+height: 30px;
+
+border-radius: 50%;
+}
+
+.book {
+  width: 150px;
+  height: 226px;
+  margin-left: 94px;
+  margin-right: 94px;
+  margin-top: 46px;
+  margin-bottom: 44px;
+  background-image: url(https://static2.mangalivre.com/firefox/zllWpAGs3QTVt9MpVd1hgw/117/5973/14159/000%20-%20Capa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+
+text-align: center;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 28px;
+text-align: center;
+
+color: #000000;
 }
