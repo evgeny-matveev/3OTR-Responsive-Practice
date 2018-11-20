@@ -49,7 +49,7 @@ body {
   color: white;
 }
 
-.book, .buttons {
+.book, .buttons, .pic {
   text-align: center;
 }
 
@@ -101,8 +101,11 @@ h3 {
   background: rgb(205, 213, 208);
 
   grid-column-end: 4;
+  justify-self: center;
 }
 
 p {
+  font-weight: 300;
+
   font-kerning: auto;
 }
