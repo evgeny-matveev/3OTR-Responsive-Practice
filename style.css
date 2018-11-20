@@ -76,16 +76,22 @@ nav ul {
   padding-top: 25px;
 }
 
-section {
-	width: 100%;
+nav ul li a {
+	color: #E5E5E5;
+	font-size: 14px;
+	font-weight: bold;
 }
 
-section img {
+
+.img {
 	width: 150px;
 	height: 226px;
-	position: relative;
-	padding-left: 88px;
-	padding-top: 44px;
+	/* position: relative; */
+	/* padding-left: 88px;
+	padding-top: 44px; */
+	margin-left: 88px;
+	margin-top: 44px;
+	margin-right: 88px;
 }
 
 .go {
@@ -111,10 +117,65 @@ section a {
 	width: 123px;
 	height: 33px;
 	background-color: #417BEA;
+	border-radius: 3px;
+	position: relative;
+	left: 25px;
+	top: 25px;
 }
 
 .read a {
+	position: absolute;
+	left:43px;
+	top:7px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+.save {
+	color: #417BEA;
+	font-size: 16px;
+	font-weight: bold;
 	position: relative;
-	left: 43px;
-	top: 7px;
+	left: 181px;
+}
+
+.text1 {
+	width: 271px;
+	height: 153px;
+	font-weight: lighter;
+	font-size: 18px;
+	padding-top: 32px;
+	padding-left: 25px;
+	/* object-fit: contain; */
+	line-height: 25px;
+	/* margin: auto; */
+
+}
+
+.text2 {
+	width: 271px;
+	height: 153px;
+	font-weight: lighter;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-left: 25px;
+	/* object-fit: contain; */
+	line-height: 25px;
+	/* margin: 0 auto; */
+}
+
+
+@media all and (min-width: 768px) {
+
+	/* .text2 {
+		width: 271px;
+		height: 153px;
+		font-weight: lighter;
+		font-size: 18px;
+		padding-top: 15px;
+		padding-left: 25px;
+		object-fit: contain;
+		line-height: 25px;
+	} */
 }
