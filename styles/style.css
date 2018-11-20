@@ -1,0 +1,24 @@
+@import "reset.css";
+
+ header {
+  display: flex;
+
+  height: 45px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #f2f2f2;
+  background-color: gray;
+
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+
+  align-items: center;
+}
+
+nav > ul {
+  display: inline-flex;
+
+  justify-content: space-around;
+}
