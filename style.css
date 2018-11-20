@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic');
+header {
+  width: 320px;
+  height: 58px;
+  margin-left: -25px;
+}
+nav {
+  display: flex;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+  justify-content: space-between;
+}
+nav .mini {
+  display: none;
+}
+ul {
+  display: flex;
+
+  list-style-type: none;
+}
+article {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bold;
+}
+.panel {
+  display: flex;
+
+  font-weight: bold;
+
+  justify-content: space-between;
+}
+
+
+@media (max-width: 320px) {
+  body {
+    margin-top: 0;
+    margin-right: 24px;
+    margin-left: 25px;
+  }
+  nav {
+    width: 271px;
+    height: 58px;
+    margin: 0 auto;
+  }
+  nav .normal {
+    display: none;
+  }
+  nav .mini {
+    display: block;
+  }
+  img {
+    width: 150px;
+    height: 226px;
+    margin: 0 auto;
+  }
+}
