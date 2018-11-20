@@ -83,10 +83,9 @@ a {
 div.description  {
 width: 271px;
 height: 178px;
+margin: 25px 0 15px 25px
 }
-div.description div.text1 {
-  margin-bottom: 15px;
-}
+
 p {
   margin-bottom: 15px;
 
