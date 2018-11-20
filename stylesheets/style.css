@@ -42,6 +42,85 @@ text-align: center;
 color: #000000;
 }
 
+.bookauthor {
+
+
+position: absolute;
+width: 106px;
+height: 26px;
+left: 107px;
+top: 414px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 22px;
+text-align: center;
+
+color: #000000;
+}
+
+.read {
+
+  position: absolute;
+  width: 123px;
+  height: 33px;
+  left: 25px;
+  top: 505px;
+
+  background: #417BEA;}
+
+.text {
+
+  position: relative;
+  width: 37px;
+  height: 19px;
+  left: 43px;
+  top: 7px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+
+  color: #FFFFFF;
+}
+
+.save {
+  position: absolute;
+  width: 97px;
+  height: 19px;
+  left: 181px;
+  top: 510px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+
+  color: #417BEA;
+}
+
+.1stpar {
+position: absolute;
+width: 271px;
+height: 178px;
+left: 25px;
+top: 523px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+line-height: 25px;
+font-size: 18px;
+
+color: #000000;
+}
+
+
 
 
 
