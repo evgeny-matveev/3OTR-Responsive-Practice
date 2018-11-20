@@ -99,6 +99,7 @@ main img {
   text-align: left;
   line-height: 25px;
   font-weight: 300;
+  font-size: 18px;
 }
 .content p:first-of-type {
   margin: 25px 0;
