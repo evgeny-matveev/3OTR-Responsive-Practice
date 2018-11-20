@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body > header {
+  position: absolute;
+  width: 320px;
+  height: 58px;
+  left: 0px;
+  top: 0px;
+  background: #9F9C98;
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  Font Size: 14px;
+  line-height: 20px;
+  color: #E5E5E5;
+}
+
+img {
+  width: 150px;
+  height: 226px;
+  margin-top: 104px;
+  margin-left: 88px;
+}
+
+.bookname {
+position: absolute;
+width: 277px;
+height: 33px;
+left: 21px;
+top: 374px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 28px;
+}
+
+.author {
+  position: absolute;
+  width: 106px;
+  height: 26px;
+  left: 107px;
+  top: 414px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.text {
+  position: absolute;
+  width: 271px;
+  height: 178px;
+  left: 25px;
+  top: 523px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
