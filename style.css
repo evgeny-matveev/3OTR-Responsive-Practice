@@ -100,4 +100,21 @@ section img {
 	font-size: 22px;
 	font-weight: lighter;
 	padding-top: 17px;
+	padding-left: 107px;
+}
+
+section a {
+	text-decoration: none;
+}
+
+.read {
+	width: 123px;
+	height: 33px;
+	background-color: #417BEA;
+}
+
+.read a {
+	position: relative;
+	left: 43px;
+	top: 7px;
 }
