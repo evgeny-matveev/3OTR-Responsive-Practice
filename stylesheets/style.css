@@ -4,15 +4,15 @@
 .navbar {
   display: grid;
 
-  height: 3rem;
+  height: 58px;
 
   text-transform: uppercase;
 
-  border: 1px solid rgb(69, 147, 7);
   background: rgb(79, 79, 79);
 
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
+
 }
 
 .menu {
@@ -25,6 +25,7 @@
 
 a {
   text-decoration: none;
+  text-decoration: underline;
 
   color: white;
 }
@@ -61,7 +62,7 @@ h3 {
   margin-top: 1rem;
 
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .donbass {
@@ -78,6 +79,17 @@ h3 {
   font-weight: 600;
 
   grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+}
+
+.buttons>* {
+  display: flex;
+
+  width: 100px;
+  height: 10px;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .button1 {
@@ -135,9 +147,11 @@ p {
   }
 
   .menuplus {
-    display: inline;
+    display: flex;
 
     text-align: center;
+
+    justify-content: space-around;
   }
 
   .info {
@@ -146,7 +160,7 @@ p {
 
   .buttons {
     grid-column: 2/2;
-    grid-row: 2/4;
+    grid-row: 2/3;
     justify-self: left;
     align-self: center;
   }
