@@ -1,0 +1,171 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic');
+body {
+  margin: 0;
+
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  display: flex;
+
+  color: #E5E5E5;
+
+  font-weight: bold;
+
+  align-items: center;
+}
+ul {
+  display: flex;
+
+  width: 95vw;
+  padding: 0;
+
+  list-style-type: none;
+}
+.picture {
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background: #E5E5E5;
+}
+.mini {
+  display: none;
+}
+.normal {
+  display: none;
+}
+a {
+  color: inherit;
+}
+header {
+  background: #9F9C98;
+}
+article {
+  display: flex;
+}
+h2 {
+  font-size: 22px;
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.panel {
+  display: flex;
+
+  width: 253px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonOne {
+  display: flex;
+
+  width: 123px;
+  height: 33px;
+
+  color: white;
+  background-color: #417BEA;
+
+  justify-content: center;
+  align-items: center;
+}
+.buttonTwo {
+  display: flex;
+
+  width: 97px;
+  height: 33px;
+
+  color: #417BEA;
+
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-weight: lighter;
+}
+@media (min-width: 470px) and (max-width: 768px) {
+  nav {
+    margin: 0 30px;
+  }
+  .normal {
+    display: block;
+  }
+  ul {
+    justify-content: flex-end;
+  }
+  li + li {
+    margin-left: 38px;
+  }
+  article {
+    /* flex-direction: column; */
+    margin: 35px 75px 0 42px;
+  }
+  img {
+    width: 150px;
+    height: 225px;
+    margin: 0 auto;
+  }
+  .content {
+    margin-left: 26px;
+  }
+  h1 {
+    margin: 0 auto 33px;
+
+    font-weight: bold;
+  }
+  h2 {
+    margin: 0 auto 5px;
+
+    font-weight: lighter;
+  }
+}
+@media (max-width: 469px) {
+  nav {
+    margin: 0 15px;
+  }
+  ul {
+    justify-content: space-between;
+  }
+  .picture {
+    left: 45vw;
+  }
+  .mini {
+    display: block;
+  }
+  article {
+    flex-direction: column;
+
+    margin: 46px 24px 0 25px;
+  }
+  img {
+    width: 150px;
+    height: 225px;
+    margin: 0 auto;
+  }
+  .content {
+    margin-top: 44px;
+  }
+  h1 {
+    margin: 0 auto;
+
+    font-weight: bold;
+  }
+  h2 {
+    margin: 7px auto 25px;
+
+    font-weight: lighter;
+  }
+  .normal {
+    display: none;
+  }
+  p {
+    font-weight: lighter;
+  }
+}
