@@ -61,6 +61,18 @@ img {
 .content {
   margin-top: 44px;
 }
+.title {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.title a {
+  text-decoration: none;
+}
+p:first-of-type {
+  margin-top: 44px;
+}
 h2 {
   margin: 7px auto 25px;
 
@@ -85,31 +97,14 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
-.buttonOne {
-  display: flex;
-
-  width: 123px;
-  height: 33px;
+.button_one {
+  padding: 7px 43px;
 
   color: white;
   background-color: #417BEA;
-
-  justify-content: center;
-  align-items: center;
 }
-.buttonTwo {
-  display: flex;
-
-  width: 97px;
-  height: 33px;
-
+.button_two {
   color: #417BEA;
-
-  justify-content: center;
-  align-items: center;
-}
-.panel + p {
-  margin-top: 25px;
 }
 p {
   font-weight: lighter;
@@ -149,6 +144,9 @@ p + p {
   }
   .content {
     margin: 0 75px 0 26px;
+  }
+  .title {
+    display: block;
   }
   h1 {
     margin: 0 auto 33px;
