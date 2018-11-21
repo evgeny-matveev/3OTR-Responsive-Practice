@@ -1,43 +1,75 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
  header {
-  width: 100%;
-  height: 45px;
+  display: flex;
+  flex-direction: row;
 
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  height: 58px;
 
-  color: #f2f2f2;
   background-color: gray;
 
-  font-family: "Proxima Nova", sans-serif;
-  font-size: 14px;
-}
-
-nav > ul {
-  display: flex;
-
   justify-content: space-around;
+  align-items: center;
 }
 
-img {
-  width: 150px;
+ul {
+  display: flex;
+}
+
+li {
+  display: inline-flex;
+
+  padding: 0 30px;
+
+  text-decoration: underline;
+  text-transform: uppercase;
+
+  color: #F7E8E3;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+  align-items: center;
+}
+
+.progect,
+.comein,
+.money {
+  display: none;
+}
+
+.menu {
+  display: flex;
+}
+
+section img {
+  width: 158px;
   padding-top: 46px;
-  padding-left: 88px;
+  padding-left: 81px;
 }
 
-.text-none {
+h1 {
   padding-top: 35px;
-  padding-left: 27px;
+  padding-left: 25px;
 
-  font-family: "Proxima Nova", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 28px;
+  font-weight: bold;
+  line-height: 25px;
 }
 
-.text-two {
-  padding-top: 15px;
-  padding-left: 105px;
+h2 {
+  padding-top: 23px;
+  padding-left: 30px;
 
-  font-family: "Proxima Nova", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
+  font-weight: lighter;
 }
