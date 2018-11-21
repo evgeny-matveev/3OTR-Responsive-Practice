@@ -51,13 +51,22 @@ li {
 
 section img {
   width: 158px;
-  padding-top: 46px;
-  padding-left: 81px;
+  padding-top: 56px;
+  padding-left: 84px;
+
+}
+
+.photo-news {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  justify-content: center;
 }
 
 h1 {
   padding-top: 35px;
-  padding-left: 25px;
 
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
@@ -67,9 +76,117 @@ h1 {
 
 h2 {
   padding-top: 23px;
-  padding-left: 30px;
 
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: lighter;
+}
+
+p {
+  width: 238px;
+  padding-top: 37px;
+  padding-left: 24px;
+
+  text-align: left;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.button {
+  margin-top: 25px;
+}
+
+.button a.one {
+   margin-right: 33px;
+   padding: 10px 27px;
+
+   color: #fff;
+   border-radius: 5px;
+   background-color: #0031C6;
+}
+
+.button a.two {
+  color: #0031C6;
+}
+
+a {
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+
+header {
+   display: flex;
+   flex-direction: row-reverse;
+
+   justify-content: space-around;
+   align-items: center;
+  }
+.menu {
+   display: none;
+  }
+
+.money,
+.progect,
+.comein {
+  display: flex;
+}
+
+.photo-news {
+  flex-direction: row;
+
+  align-items: flex-start;
+}
+
+.button {
+  margin-top: 38px;
+  margin-left: 25px;
+
+  order: 3;
+}
+
+section img {
+  width: 186px;
+  padding-top: 6vh;
+  padding-left: 174px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+
+  width: 75%;
+  margin-left: 21px;
+
+  text-align: left;
+}
+
+h1 {
+  width: 305px;
+  padding-top: 10px;
+  padding-left: 24px;
+
+  order: 2;
+  }
+
+h2 {
+  padding-top: 37px;
+  padding-left: 27px;
+
+  order: 1;
+  }
+
+p {
+  width: 620px;
+  padding-top: 36px;
+
+  order: 4;
+  }
 }
