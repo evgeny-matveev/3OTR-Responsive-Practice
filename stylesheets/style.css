@@ -70,7 +70,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-weight: bold;
-  line-height: normal;
+  line-height: 25px;
 }
 
 h2 {
@@ -106,10 +106,6 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: bold;
-}
-
-a:after {
-  color: inherit;
 }
 
 p {
@@ -175,7 +171,6 @@ p {
 
   section img {
     width: 172px;
-    height: 253px;
     margin-top: 33px;
     margin-left: 42px;
   }
