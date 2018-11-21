@@ -18,8 +18,14 @@ nav {
   align-items: center;
 }
 
-span {
+ul {
   display: flex;
+}
+
+li {
+  display: inline-flex;
+
+  padding: 0 30px;
 
   text-decoration: underline;
   text-transform: uppercase;
@@ -29,6 +35,8 @@ span {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: bold;
+
+  align-items: center;
 }
 
 .price, .about, .login {
@@ -36,7 +44,7 @@ span {
 }
 
 .menu {
-  display: block;
+  display: flex;
 }
 
 .book {
@@ -130,11 +138,11 @@ p {
     padding-right: 30vw;
     padding-left: 10px;
 
-    order: 5;
+    order: 1;
   }
 
   .search {
-    order: 4;
+    order: 2;
   }
 
   .price {
@@ -142,17 +150,17 @@ p {
   }
 
   .about {
-    order: 2;
+    order: 4;
   }
 
   .login {
     padding-right: 10px;
 
-    order: 1;
+    order: 5;
   }
 
   .price, .about, .login {
-    display: block;
+    display: flex;
   }
 
   .menu {
