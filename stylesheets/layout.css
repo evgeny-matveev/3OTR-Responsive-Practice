@@ -1,64 +1,110 @@
 * {
-  box-sizing: border-box;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-body > header {
-  position: absolute;
-  width: 320px;
-  height: 58px;
-  left: 0px;
-  top: 0px;
-  background: #9F9C98;
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	position: absolute;
+	width: 320px;
+	height: 58px;
+	background: #9F9C98;
 }
 
 ul {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  Font Size: 14px;
-  line-height: 20px;
-  color: #E5E5E5;
+	display: flex;
+	flex-direction: row;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: 700;
+	Font Size: 14px;
+	line-height: 20px;
+	color: #E5E5E5;
+	letter-spacing: 5%;
+	padding-top: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+header img {
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+  margin-right: 63px;
+  margin-left: 68px;
 }
 
 img {
-  width: 150px;
-  height: 226px;
-  margin-top: 104px;
-  margin-left: 88px;
+	width: 150px;
+	height: 226px;
+	margin-top: 104px;
+	margin-left: 88px;
 }
 
 .bookname {
-position: absolute;
-width: 277px;
-height: 33px;
-left: 21px;
-top: 374px;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-font-size: 28px;
+	position: absolute;
+	left: 77px;
+	top: 374px;
+	font-weight: 700;
+	font-size: 28px;
 }
 
 .author {
-  position: absolute;
-  width: 106px;
-  height: 26px;
-  left: 107px;
-  top: 414px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 26px;
+	position: absolute;
+	left: 96px;
+	top: 414px;
+	font-weight: 300;
+	font-size: 22px;
 }
 
 .text {
-  position: absolute;
-  width: 271px;
-  height: 178px;
-  left: 25px;
-  top: 523px;
+	position: absolute;
+	width: 271px;
+	left: 25px;
+	top: 523px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 25px;
+}
 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
+.Read a {
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	top: 465px;
+	left: 25px;
+	width: 123px;
+	height: 33px;
+	background: #417BEA;
+	color: white;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+  padding-top: 7px;
+}
+
+.Save a {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	position: absolute;
+	color: #417BEA;
+	top: 472px;
+	left: 181px;
+	text-decoration: none;
+}
+
+.Read a:hover {
+	text-decoration: underline;
+	background-color: pink;
+}
+
+.Save a:hover {
+	text-decoration: underline;
+	color: pink;
 }
