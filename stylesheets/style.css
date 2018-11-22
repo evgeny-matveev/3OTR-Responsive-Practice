@@ -129,28 +129,12 @@ a {
   font-weight: bold;
 }
 
-.par1 {
+p {
   left: 25px;
 
   width: 271px;
   height: 178px;
   margin-top: 25px;
-
-  text-align: left;
-
-  color: #000000;
-
-  font-size: 18px;
-  font-weight: lighter;
-  line-height: 25px;
-}
-
-.par2 {
-  left: 25px;
-
-  width: 271px;
-  height: 178px;
-  margin-top: -45px;
 
   text-align: left;
 
@@ -240,6 +224,8 @@ a {
 
   h2 {
     width: 305px;
+    padding-top: 45px;
+    padding-left: 0;
 
     text-align: left;
 
@@ -248,7 +234,7 @@ a {
     font-size: 22px;
     font-style: lighter;
 
-    order: 2;
+    order: 1;
   }
 
   h1 {
@@ -263,21 +249,20 @@ a {
     font-style: normal;
     line-height: normal;
 
-    order: 1;
+    order: 2;
   }
 
 
   .buttons {
     margin-top: 40px;
+    padding-left: 26px;
 
     order: 3;
   }
 
-  .par1 {
-    order: 4;
-  }
+  p {
+    width: auto;
 
-  .par2 {
-    order: 5;
+    order: 4;
   }
 }
