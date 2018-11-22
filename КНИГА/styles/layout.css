@@ -14,8 +14,8 @@ header
 
     background-color: #9f9c98;
 
-    align-items: center;
-    justify-content: space-between;
+
+    justify-container: space-between;
 }
 .round
 {
@@ -69,12 +69,11 @@ h1
 {
     font-size: 33px;
     font-weight: 700;
-
+    text-align: center;
     margin: 0 0 7px 0;
     /* font-family: 'Roboto', sans-serif; */
     padding: 2px;
 
-    text-align: center;
 
     color: black;
 }
@@ -83,11 +82,11 @@ h2
     font-size: 26px;
     font-weight: 300;
     font-style: normal;
-
+    align-items: center;
     margin: 0 0 25px 0;
     padding: 10px;
 
-    text-align: center;
+
     /* font-family: 'Roboto', sans-serif; */
 
     color: black;
@@ -142,7 +141,7 @@ a.button25
 {
     .buttons
     {
-        justify-content: center;
+        justify-container: center;
     }
 }
 @media all and (min-width: 768px)
@@ -172,33 +171,18 @@ a.button25
     }
     main img
     {
-        width: 168px;
+        width: 220px;
         margin-right: 25px;
     }
-    .content h1
-    {
-        margin: 0;
-        margin-bottom: 33px;
-    }
-    .content
-    {
-        display: flex;
 
-        margin-top: 0;
-
-        text-align: left;
-
-        flex-basis: 60vw;
-    }
-    .content h2
-    {
-        width: 100%;
-        margin-bottom: 5px;
-
-        order: -1;
-    }
     .buttons
     {
-        justify-content: flex-start;
+        justify-container: flex-start;
     }
 }
+.circle {
+	width: 30px;
+	height: 30px;
+	background: #E5E5E5;
+	border-radius: 50px;
+  margin-left: 15px;
