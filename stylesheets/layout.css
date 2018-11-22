@@ -26,17 +26,16 @@ ul {
 	color: #E5E5E5;
 	letter-spacing: 5%;
 	padding-top: 22px;
-	padding-left: 15px;
-	padding-right: 15px;
-	justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
 }
-
 header img {
-	width: 30px;
-	height: 30px;
-	margin-top: -8px;
-	margin-right: 63px;
-	margin-left: 68px;
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+  margin-right: 63px;
+  margin-left: 68px;
 }
 
 img {
@@ -86,7 +85,7 @@ img {
 	border-radius: 3px;
 	text-decoration: none;
 	text-align: center;
-	padding-top: 7px;
+  padding-top: 7px;
 }
 
 .Save a {
