@@ -25,14 +25,6 @@ nav {
   align-items: center;
 }
 
-header img {
-  width: 30px;
-  height: 30px;
-  margin-top: 4px;
-  padding-right: 117px;
-  padding-left: 117px;
-}
-
 ul {
   display: flex;
 }
@@ -171,7 +163,7 @@ a {
 
 @media (min-width: 768px) {
 
-  header {
+  nav {
     display: flex;
     flex-direction: row-reverse;
 
@@ -179,40 +171,33 @@ a {
     align-items: center;
   }
 
-
-
-  header img {
-    margin-left: 30px;
+  nav img {
+    padding-right: 30vw;
+    padding-left: 10px;
 
     order: 1;
   }
 
   .search {
-    padding-right: 38px;
+    margin-right: auto;
 
     order: 2;
   }
 
   .price {
-    padding-right: 38px;
-
     order: 3;
   }
 
   .about {
-    padding-right: 27px;
-
     order: 4;
   }
 
   .login {
-    padding-right: 30px;
-
     order: 5;
   }
 
   .price, .about, .login {
-    display: block;
+    display: flex;
   }
 
   .menu {
@@ -243,6 +228,28 @@ a {
     width: 168px;
     height: 253px;
   }
+  article {
+    display: flex;
+    flex-direction: column;
+
+    width: 75%;
+    margin-left: 21px;
+
+    text-align: left;
+  }
+
+  h2 {
+    width: 305px;
+
+    text-align: left;
+
+    color: #000000;
+
+    font-size: 22px;
+    font-style: lighter;
+
+    order: 2;
+  }
 
   h1 {
     width: 305px;
@@ -256,32 +263,21 @@ a {
     font-style: normal;
     line-height: normal;
 
-    order: 2;
-  }
-
-
-
-  h2 {
-    width: 305px;
-    margin-top: 93px;
-
-    text-align: left;
-
-    color: #000000;
-
-    font-size: 22px;
-    font-style: lighter;
-
     order: 1;
   }
 
-  article {
-    display: flex;
-    flex-direction: column;
 
-    width: 75%;
-    margin-left: 21px;
+  .buttons {
+    margin-top: 40px;
 
-    text-align: left;
- }
+    order: 3;
+  }
+
+  .par1 {
+    order: 4;
+  }
+
+  .par2 {
+    order: 5;
+  }
 }
