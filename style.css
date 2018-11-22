@@ -104,9 +104,6 @@ nav ul li a {
 .img {
 	width: 150px;
 	height: 226px;
-	/* position: relative; */
-	/* padding-left: 88px;
-	padding-top: 44px; */
 	margin-left: 88px;
 	margin-top: 44px;
 	margin-right: 88px;
@@ -165,10 +162,7 @@ section a {
 	font-size: 18px;
 	padding-top: 32px;
 	padding-left: 25px;
-	/* object-fit: contain; */
 	line-height: 25px;
-	/* margin: auto; */
-
 }
 
 .text2 {
@@ -182,7 +176,6 @@ section a {
 	line-height: 25px;
 	/* margin: 0 auto; */
 }
-
 
 @media all and (min-width: 768px) {
 	.img {
@@ -215,29 +208,24 @@ section a {
 	.text1, .text2{
 		width: 450px;
 		height: 102px;
-}
+	}
 
-.get {
-	display: block;
-}
+	.get {
+		display: block;
+	}
 
-.main2 {
-	display: none;
-}
+	.main2 {
+		display: none;
+	}
 
-nav ul {
-	width: 380px;
-	position: absolute;
-	right: 30px;
-}
+	nav ul {
+		width: 380px;
+		position: absolute;
+		right: 30px;
+	}
 
-nav img {
-	position: absolute;
-	left: 30px;
-}
-
-
-	/* .img, .go, .harper, .read, .save, .text1, .text2 {
-		display: inline-block;
-	} */
+	nav img {
+		position: absolute;
+		left: 30px;
+	}
 }
