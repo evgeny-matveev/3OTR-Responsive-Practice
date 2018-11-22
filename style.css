@@ -1,10 +1,9 @@
 @import "reset.css";
 
 body{
-height: auto;
+  height: auto;
 
-font-family: 'Roboto', sans-serif;
-
+  font-family: 'Roboto', sans-serif;
 }
 h1 {
   width: 320px;
@@ -24,11 +23,9 @@ h2 {
   font-size: 22px;
   font-weight: lighter;
 }
-
 a {
   color: #fff
 }
-
 nav ul {
   position: relative;
 
@@ -45,23 +42,18 @@ nav ul {
   justify-content: space-around;
 
 }
-
-
 .book {
   margin-top: 20px;
   margin-left: 88px;
-
 }
-.book>img {
+.book > img {
   position: inherit;
 
   width: 150px;
   height: 226px;
 }
-
-.knopki {
+.buttons {
   display: flex;
-
   width: 295px;
 
   justify-content: space-between;
@@ -71,47 +63,41 @@ nav ul {
   height: 33px;
   margin-top: 25px;
   margin-left: 40px;
-
   border-radius: 3px;
   background-color: blue;
 }
-.read>p{
-  padding: 10px;
-  padding-left: 40px;
-
+.read > a {
+  padding: 40px;
   color: #fff;
-
   font-size: 16px;
+  text-decoration: none;
 }
-
 .save-for-later {
-  margin-top: 25px;
+  margin-top: 32px;
   margin-right: -7px;
 }
-.save-for-later>p {
+.save-for-later > a {
   padding: 10px;
-
+  text-decoration: none;
   color: blue;
 }
 .content {
   width: 100%;
   margin-top: 25px;
-
 }
-.content>p {
+.content > p {
   padding-left: 40px;
   font-weight: lighter;
   font-size: lighter;
   font-size: 18px;
   margin-bottom: 10px;
 }
-.oll{
+.main {
   display: flex;
   flex-direction: column;
 
   width: auto;
 }
-
  nav ul li:nth-of-type(2) {
   padding: 20px;
 
@@ -127,12 +113,11 @@ nav ul li:nth-of-type(5) {
 nav ul li:nth-of-type(6) {
   display: none;
 }
-
 @media all and (min-width: 600px) {
 nav ul {
   width: auto;
 }
-.oll {
+.main {
   display: flex;
   flex-direction: row;
 }
