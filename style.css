@@ -1,0 +1,158 @@
+@import "reset.css";
+
+body{
+  height: auto;
+
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  width: 320px;
+  margin-top: 20px;
+
+  text-align: center;
+
+  font-size: 28px;
+  font-weight: bold;
+}
+h2 {
+  width: 320px;
+  margin-top: 7px;
+
+  text-align: center;
+
+  font-size: 22px;
+  font-weight: lighter;
+}
+a {
+  color: #fff
+}
+nav ul {
+  position: relative;
+
+  display: flex;
+
+  width: 100%;
+  padding: 5px;
+
+  background-color: gray;
+
+  font-size: 14px;
+
+  align-items: center;
+  justify-content: space-around;
+
+}
+.book {
+  margin-top: 20px;
+  margin-left: 88px;
+}
+.book > img {
+  position: inherit;
+
+  width: 150px;
+  height: 226px;
+}
+.buttons {
+  display: flex;
+  width: 295px;
+
+  justify-content: space-between;
+}
+.read {
+  width:  123px;
+  height: 33px;
+  margin-top: 25px;
+  margin-left: 40px;
+  border-radius: 3px;
+  background-color: blue;
+}
+.read > a {
+  padding: 40px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.save-for-later {
+  margin-top: 32px;
+  margin-right: -7px;
+}
+.save-for-later > a {
+  padding: 10px;
+  text-decoration: none;
+  color: blue;
+}
+.content {
+  width: 100%;
+  margin-top: 25px;
+}
+.content > p {
+  padding-left: 40px;
+  font-weight: lighter;
+  font-size: lighter;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+
+  width: auto;
+}
+ nav ul li:nth-of-type(2) {
+  padding: 20px;
+
+  border-radius: 50%;
+  background: white;
+}
+nav ul li:nth-of-type(4) {
+  display: none;
+}
+nav ul li:nth-of-type(5) {
+  display: none;
+}
+nav ul li:nth-of-type(6) {
+  display: none;
+}
+@media all and (min-width: 600px) {
+nav ul {
+  width: auto;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  width: 98%;
+  margin-top: 25px;
+}
+.book {
+  margin-top: 20px;
+}
+h1 {
+  margin-top: 60px;
+  margin-bottom: -65px;
+  margin-left: 40px;
+
+  text-align: left;
+}
+h2 {
+  margin-bottom: 40px;
+  margin-left: 40px;
+
+  text-align: left;
+}
+nav ul li:nth-of-type(1) {
+  display: none;
+}
+nav ul li:nth-of-type(4) {
+  display:inline;
+}
+nav ul li:nth-of-type(5) {
+  display:inline;
+}
+nav ul li:nth-of-type(6) {
+  display: inline;
+}
+nav ul li:nth-of-type(2) {
+  margin-right: 200px;
+}
