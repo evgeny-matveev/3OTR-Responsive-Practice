@@ -7,14 +7,10 @@
 }
 
 body {
-  width: 100%;
-}
-
-header, .first, .buttons, .text {
   font-family:'Roboto', sans-serif;
 }
 
-nav {
+ul {
   height: 58px;
   margin-bottom: 45px;
 
@@ -26,8 +22,7 @@ nav {
   background: #9F9C98;
 }
 
-span {
-  font-style: normal;
+li {
   font-weight: bold;
   line-height: 20px;
   font-size: 14px;
@@ -47,30 +42,38 @@ span {
   height: 30px;
 }
 
-.first {
+.book-info__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.book-info__header img {
+  width: 161px;
+  height: 226px;
+}
+
+.book-info__desc {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 30px;
-}
-
-.book-cover {
-  width: 161px;
-  height: 226px;
-  margin-bottom: 50px;
 }
 
 .author-name {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 h1 {
-  margin-bottom: 5px;
+  padding-bottom: 15px;
 
-  font-style: normal;
   font-weight: bold;
-  line-height: normal;
   font-size: 28px;
   text-align: center;
 
@@ -78,9 +81,7 @@ h1 {
 }
 
 h2 {
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
   font-size: 22px;
   text-align: center;
 
@@ -98,16 +99,11 @@ h2 {
 }
 
 a {
-  font-style: normal;
   font-weight: bold;
-  line-height: normal;
+  line-height: 25px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-}
-
-a:after {
-  color: inherit;
 }
 
 .read {
@@ -122,10 +118,6 @@ a:after {
 }
 
 .save {
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-
   color: #417BEA;
 }
 
@@ -140,7 +132,6 @@ p {
   margin-right: 25px;
   padding-bottom: 25px;
 
-  font-style: normal;
   font-weight: 300;
   line-height: 25px;
   font-size: 18px;
@@ -150,6 +141,11 @@ p {
 }
 
 @media (min-width: 768px) {
+  .book {
+    display: flex;
+    flex-direction: row;
+  }
+
   .cost, .about, .login {
     display: block;
   }
@@ -179,44 +175,34 @@ p {
     order: 5
   }
 
-  .first {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-    margin-bottom: 0px;
+  .book-info__header {
+    margin-left: 42px;
+    margin-right: 23px;
   }
 
-  .book-cover {
+  .book-info__header img {
     width: 168px;
-    height: 235px;
+  }
 
-    margin-left: 42px;
-    padding-right: 23px;
-    margin-bottom: 10px;
+  .book-info__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .author-name {
-    display: block;
-    margin-top: -175px;
-  }
-
-  h1, h2 {
-    text-align: left;
-  }
-
-  .buttons {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
 
-    margin-left: 236px;
-    margin-top: -55px;
+  h1 {
+    padding-top: 15px;
   }
 
   p {
-    margin-left: 236px;
+    margin-left: 0;
+    margin-right: 25px;
   }
 }
