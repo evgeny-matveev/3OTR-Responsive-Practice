@@ -129,9 +129,10 @@ header {
    justify-content: space-around;
    align-items: center;
   }
+
 .menu {
    display: none;
-  }
+}
 
 .money,
 .progect,
