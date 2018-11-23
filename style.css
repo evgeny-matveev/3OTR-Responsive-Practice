@@ -1,0 +1,146 @@
+@import "reset.css";
+@import "https://fonts.googleapis.com/css?family=Roboto";
+
+body {
+  font-family: Roboto;
+}
+nav {
+  background-color: #9F9C98;;
+  height: 58px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #e5e5e5;
+}
+nav a {
+  color: inherit;
+}
+ul {
+  margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.size_Max {
+  display: none;
+}
+.circle {
+	width: 30px;
+	height: 30px;
+	background: #E5E5E5;
+	border-radius: 50%;
+  position: absolute;
+  left: 45vw;
+}
+
+article {
+  margin: 46px 25px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  width: 150px;
+  height: 226px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-top: 44px;
+  font-size: 28px;
+  line-height: 33px;
+}
+h2{
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 7px;
+}
+
+.buttoms {
+  margin-top: 25px;
+  display: flex;
+  width: 314px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+}
+.buttoms a {
+  text-decoration: none;
+}
+.one {
+  border-radius: 3px;
+  padding: 7px 43px;
+  color: #FFFFFF;
+  background-color: #417BEA;
+}
+.two {
+  color: #417BEA;
+  margin-left: 33px;
+}
+
+.content {
+  font-size: 18px;
+  line-height: 25px;
+}
+.text {
+  margin-top: 25px;
+}
+p + p {
+  margin-top: 15px;
+}
+
+
+@media (min-width: 768px) {
+  ul {
+    justify-content: flex-end;
+    margin: 0 30px;
+  }
+  li + li {
+    margin-left: 38px;
+  }
+  .circle {
+    left: 30px;;
+  }
+  .size_Min {
+    display: none;
+  }
+  .size_Max {
+    display: block;
+  }
+  article {
+    flex-direction: row;
+    margin: 33px 75px 0 42px;
+    align-items: flex-start;
+  }
+  img {
+    width: 168px;
+    height: 253px;
+  }
+  .content {
+    margin-left: 26px;
+    margin-top: 0;
+  }
+  .title {
+    align-items: flex-start;
+  }
+  h1 {
+    margin-top: 5px;
+  }
+  .buttoms {
+    margin-top: 33px;
+  }
+  .text {
+    margin-top: 30px;
+  }
+  p + p {
+    margin-top: 20px;
+  }
+}
