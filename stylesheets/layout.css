@@ -10,7 +10,8 @@ body {
 body > header {
   display: flex;
 
-  width: 320px;
+  min-width: 320px;
+  max-width: 768px;
   height: 35px;
 
   letter-spacing: 1px;
@@ -27,7 +28,7 @@ body > header {
 }
 
 .icon {
-  position: absolute;
+  position: relative;
   top: auto;
   left: 150px;
 
@@ -133,7 +134,7 @@ h2 {
   top: 530px;
   left: 25px;
 
-  width: 271px;
+  box-sizing: border-box;
   height: 178px;
 
   color: #000000;
@@ -147,10 +148,10 @@ h2 {
 
 .p2 {
   position: absolute;
-  top: 660px;
+  top: 630px;
   left: 25px;
 
-  width: 271px;
+  box-sizing: border-box;
   height: 178px;
 
   color: #000000;
