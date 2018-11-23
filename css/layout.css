@@ -1,0 +1,185 @@
+/* content
+    1. Header;
+    2. Main;
+    3. Typography;
+    4. Buttons;
+    5. Media Queries.
+
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header Start */
+header {
+  display: flex;
+
+  height: 58px;
+  padding: 14px 30px;
+
+  background-color: #9F9C98;
+
+  font-family: 'Roboto', sans-serif;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.round {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background-color: #fff;
+}
+header ul {
+  display: flex;
+
+  order: -1;
+}
+header li a,
+header a {
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 14px;
+}
+header  ul li {
+  display: none;
+}
+header ul li:nth-child(1) {
+  display: inline;
+}
+/* Header End */
+
+/* Main Start */
+main {
+  display: flex;
+
+  margin: 52px 25px;
+
+  font-family: 'Roboto', sans-serif;
+
+  align-items: center;
+  flex-flow: column wrap;
+}
+main img {
+  width: 150px;
+}
+.content {
+  margin-top: 44px;
+
+  text-align: center;
+
+  flex-flow: row wrap;
+}
+
+/* Typography Start */
+.content h1 {
+  margin: 0 0 7px 0;
+
+  font-size: 28px;
+  font-weight: 700;
+}
+.content h2 {
+  margin: 0 0 25px 0;
+
+  font-size: 22px;
+  font-weight: 300;
+
+  order: 1;
+}
+.content p {
+  text-align: left;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.content p:first-of-type {
+  margin: 25px 0;
+}
+.content a {
+  text-align: center;
+  text-decoration: none;
+}
+.content a:first-of-type {
+  display: inline-block;
+
+  margin-right: 33px;
+  padding: 7px 43px;
+
+  color: #fff;
+  border-radius: 5px;
+  background-color: #417BEA;
+}
+/* Typography End */
+
+/* Buttons */
+.buttons {
+  display: flex;
+
+  width: 100%;
+  margin-left: -8px;
+
+  font-weight: 700;
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main End */
+
+
+/* Media Queries Block */
+
+@media all and (min-width: 768px) {
+
+  header ul li {
+    display: block;
+
+    margin-right: 38px;
+  }
+  header > a {
+    display: none;
+  }
+  header ul {
+    order: 0;
+  }
+  header ul li:nth-child(4) {
+    margin: 0;
+  }
+  main {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+  }
+  main img {
+    width: 168px;
+    margin-right: 25px;
+  }
+  .content h1 {
+    margin: 0;
+    margin-bottom: 33px;
+  }
+  .content {
+    display: flex;
+
+    margin-top: 0;
+
+    text-align: left;
+
+    flex-basis: 60vw;
+  }
+  .content h2 {
+    width: 100%;
+    margin-bottom: 5px;
+
+    order: -1;
+  }
+  .buttons {
+    margin-left: 0;
+
+    justify-content: flex-start;
+  }
+}
