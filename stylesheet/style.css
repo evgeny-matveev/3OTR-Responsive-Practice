@@ -1,0 +1,208 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family:'Roboto', sans-serif;
+}
+
+ul {
+  height: 58px;
+  margin-bottom: 45px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #9F9C98;
+}
+
+li {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #E5E5E5;
+}
+
+.cost, .about, .login {
+  display: none;
+}
+
+.userpic img {
+  width: 30px;
+  height: 30px;
+}
+
+.book-info__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.book-info__header img {
+  width: 161px;
+  height: 226px;
+}
+
+.book-info__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.author-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  padding-bottom: 15px;
+
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+
+  color: #000000;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.buttons {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.read {
+  padding-top: 12px;
+
+  color: #FFFFFF;
+  width: 123px;
+  height: 33px;
+  background: #417BEA;
+  border-radius: 3px;
+  margin-right: 40px;
+}
+
+.save {
+  color: #417BEA;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 25px;
+
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: left;
+
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  .book {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cost, .about, .login {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .userpic {
+    order: 1;
+    padding-right: 40vw;
+  }
+
+  .search {
+    order: 2;
+  }
+
+  .cost {
+    order: 3;
+  }
+
+  .about {
+    order: 4
+  }
+
+  .login {
+    order: 5
+  }
+
+  .book-info__header {
+    margin-left: 42px;
+    margin-right: 23px;
+  }
+
+  .book-info__header img {
+    width: 168px;
+  }
+
+  .book-info__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .author-name {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    padding-top: 15px;
+  }
+
+  p {
+    margin-left: 0;
+    margin-right: 25px;
+  }
+}
