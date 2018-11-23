@@ -25,9 +25,6 @@ ul {
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
-
-  /* padding-left: 40px;
-  padding-right: 40px; */
   width: 100%;
 }
 li {
@@ -42,15 +39,6 @@ li.yourface {
 main img {
  width: 150px;
  margin-top: 46px;
- /* display: flex;
- justify-content: center;
- align-items: center; */
-}
-section {
-  /* padding: 24px; */
-  /* margin-top: 44px; */
-  /* width: 80vw;
-  padding-left: 50px; */
 }
 h2 {
   margin-top: 44px;
@@ -64,6 +52,10 @@ h3 {
   text-align: center;
   margin-top: 7px;
 }
+section {
+  display: flex;
+  flex-direction: column;
+}
 .buttons {
   margin-top: 25px;
   margin-bottom: 30px;
@@ -73,39 +65,48 @@ h3 {
   text-align: center;
 }
 .buttons a {
-  /* display: inline-block;
-  justify-content: space-between; */
-
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   color: inherit;
 }
 a:first-of-type {
   background-color: #417BEA;
   border-radius: 3px;
-  /* border-width: 123px; */
   display: inline-block;
-  margin-right: 33px;
+  margin-right: 22px;
   padding: 7px 43px;
-
   color: #fff;
+  margin-left: 22px;
 }
 p {
   font-size: 18px;
   line-height: 25px;
   align: left;
+  margin-left: 25px;
 }
 
 
 @media all and (min-width: 768px) {
   main {
     flex-direction: row;
-    /* flex-direction: row; */
+    padding-left: 44px;
+    padding-top: 33px;
   }
- img {
+  main img {
    margin-right: 26px;
-   margin-top: 46px;
+   margin-top: -200px;
   }
+  h2 {
+    margin-top: 22px;
+  }
+  h2, h3, .buttons {
+    margin-left: 25px;
+  }
+  section {
+    align-items: flex-start;
+  }
+  a:first-of-type {
+    margin-left: 0px;
 }
