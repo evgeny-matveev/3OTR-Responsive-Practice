@@ -1,0 +1,112 @@
+@import "reset.css";
+body {
+  font-family: 'Roboto', sans-serif;
+}
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 20px 0 20px;
+}
+nav {
+  height: 58px;
+  background-color: gray;
+  padding: 0 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+}
+li {
+ flex-direction: row;
+}
+li.yourface {
+  background-color: #E5E5E5;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+main img {
+ width: 150px;
+ margin-top: 46px;
+}
+h2 {
+  margin-top: 44px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+}
+h3 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 7px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.buttons {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.buttons a {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: left;
+  color: inherit;
+}
+a:first-of-type {
+  background-color: #417BEA;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 22px;
+  padding: 7px 43px;
+  color: #fff;
+  margin-left: 22px;
+}
+p {
+  font-size: 18px;
+  line-height: 25px;
+  align: left;
+  margin-left: 25px;
+}
+
+
+@media all and (min-width: 768px) {
+  main {
+    flex-direction: row;
+    padding-left: 44px;
+    padding-top: 33px;
+  }
+  main img {
+   margin-right: 26px;
+   margin-top: -200px;
+  }
+  h2 {
+    margin-top: 22px;
+  }
+  h2, h3, .buttons {
+    margin-left: 25px;
+  }
+  section {
+    align-items: flex-start;
+  }
+  a:first-of-type {
+    margin-left: 0px;
+}
