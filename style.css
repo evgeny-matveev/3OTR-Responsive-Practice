@@ -1,65 +1,124 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+.tablet {
+  display: none;
+}
 
 html {
-  font-family: Roboto
+  font-family: Roboto;
 }
 
 nav {
-width: 320px;
-height: 58px;
+  height: 58px;
 
-background: #9F9C98;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding-left: 15px;
-padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  background: #9F9C98;
 }
 
 nav a {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
 
-font-style: normal;
-font-weight: bold;
-line-height: 20px;
-font-size: 14px;
-letter-spacing: 0.05em;
-text-decoration-line: underline;
-color: #E5E5E5;
-text-transform: uppercase;
+  color: #E5E5E5;
+}
+
+.mobile {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 46px;
 }
 
 .circle {
-background-color: #E5E5E5;
-width: 30px;
-height: 30px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 
-border-radius: 50%;
+  background-color: #E5E5E5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .book {
   width: 150px;
   height: 226px;
-  margin-left: 94px;
-  margin-right: 94px;
-  margin-top: 46px;
   margin-bottom: 44px;
+
   background-image: url(https://static2.mangalivre.com/firefox/zllWpAGs3QTVt9MpVd1hgw/117/5973/14159/000%20-%20Capa.jpg);
   background-position: center;
   background-size: cover;
 }
 
 h1 {
+  font-weight: bold;
+  font-size: 28px;
 
-text-align: center;
+  margin-bottom: 7px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 28px;
-text-align: center;
+  color: #000000;
+}
 
-color: #000000;
+h2 {
+  font-weight: 300;
+  font-size: 22px;
+
+  color: #000000;
+}
+
+.buttons {
+  margin: 25px auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button1 {
+  width: 123px;
+  height: 33px;
+  border-radius: 3px;
+  margin-right: 33px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #417BEA;
+}
+
+.buttons a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button1 a {
+  color: #FFFFFF;
+}
+
+.button2 a {
+  color: #417BEA;
+}
+
+section {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 18px;
+
+  padding-bottom: 15px; 
 }
