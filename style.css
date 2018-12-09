@@ -1,0 +1,184 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+html {
+  font-family: Roboto;
+}
+
+.tablet {
+  display: none;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 33px;
+}
+
+nav {
+  height: 58px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+  background: #9F9C98;
+}
+
+nav a {
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
+
+  color: #E5E5E5;
+}
+
+.mobile {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 46px;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+  background-color: #E5E5E5;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book {
+  width: 150px;
+  height: 226px;
+  margin-bottom: 44px;
+
+  background-image: url(https://static2.mangalivre.com/firefox/zllWpAGs3QTVt9MpVd1hgw/117/5973/14159/000%20-%20Capa.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+
+  margin-bottom: 7px;
+
+  color: #000000;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 22px;
+
+  color: #000000;
+}
+
+.buttons {
+  margin: 25px auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button1 {
+  width: 123px;
+  height: 33px;
+  border-radius: 3px;
+  margin-right: 33px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #417BEA;
+}
+
+.buttons a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button1 a {
+  color: #FFFFFF;
+}
+
+.button2 a {
+  color: #417BEA;
+}
+
+section {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 18px;
+
+  padding-bottom: 15px;
+}
+
+@media all and (min-width: 768px) {
+
+  .tablet {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .circle {
+    margin-right: 298px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  .photo {
+    padding-left: 42px;
+  }
+
+  .book {
+    width: 168px;
+    height: 253px;
+  }
+
+  .content {
+    align-items: flex-start;
+    padding-left: 23px;
+  }
+
+  .content h1 {
+    margin: 0;
+  }
+
+  .content h2 {
+    order: -1;
+    margin-bottom: 5px;
+  }
+
+  .buttons {
+   margin: 33px 0 30px 3px;
+  }
+
+  section {
+    padding: 0 75px 5px 0;
+  }
+
+}
