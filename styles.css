@@ -1,0 +1,169 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  display: flex;
+
+  height: 58px;
+  margin: 0 15px;
+
+  text-transform: uppercase;
+
+  color: #E5E5E5;
+
+  font-weight: bold;
+
+  align-items: center;
+}
+ul {
+  display: flex;
+
+  width: 95vw;
+  padding: 0;
+
+  list-style-type: none;
+
+  justify-content: space-between;
+}
+a {
+  color: inherit;
+}
+.logo {
+  position: absolute;
+  left: 45vw;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background: #E5E5E5;
+}
+.size_Mobil {
+  display: block;
+}
+.size_iPad {
+  display: none;
+}
+header {
+  background: #9F9C98;
+}
+article {
+  display: flex;
+  flex-direction: column;
+
+  margin: 46px 24px 0 25px;
+}
+img {
+  width: 150px;
+  height: 225px;
+  margin: 0 auto;
+}
+.content {
+  margin-top: 44px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.title a {
+  text-decoration: none;
+}
+p:first-of-type {
+  margin-top: 44px;
+}
+h2 {
+  margin: 7px auto 25px;
+
+  font-size: 22px;
+  font-weight: lighter;
+}
+h1 {
+  margin: 0 auto;
+
+  font-size: 28px;
+  font-weight: bold;
+  font-weight: bold;
+}
+.panel {
+  display: flex;
+
+  width: 253px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.button_one {
+  padding: 7px 43px;
+
+  color: white;
+  background-color: #417BEA;
+}
+.button_two {
+  color: #417BEA;
+}
+p {
+  font-weight: lighter;
+}
+p + p {
+  margin-top: 15px;
+}
+@media (min-width: 768px) {
+  nav {
+    margin: 0 30px;
+  }
+  ul {
+    justify-content: flex-end;
+  }
+  li + li {
+    margin-left: 38px;
+  }
+  .logo {
+    left: 30px;
+  }
+  .size_Mobil {
+    display: none;
+  }
+  .size_iPad {
+    display: block;
+  }
+  article {
+    flex-direction: row;
+    /* flex-direction: column; */
+
+    margin: 35px 75px 0 42px;
+  }
+  img {
+    width: 168px;
+    height: 253px;
+    margin: 0 auto;
+  }
+  .content {
+    margin: 0 75px 0 26px;
+  }
+  .title {
+    display: block;
+  }
+  h1 {
+    margin: 0 auto 33px;
+
+    font-weight: bold;
+  }
+  h2 {
+    margin: 0 auto 5px;
+
+    font-weight: lighter;
+  }
+  .panel + p {
+    margin-top: 30px;
+  }
+  p + p {
+    margin-top: 20px;
+  }
+}
